@@ -1,9 +1,6 @@
 /**
  * A class representing seats in the plane
- * 
- * @author Karan Bhargava
- * @version 1.5718
- *
+
  */
 public class Seat {
     private String seatType; // type
@@ -47,10 +44,7 @@ public class Seat {
     }
 
     /**
-     * A getter method to get the seat type This study source was downloaded by
-     * 100000798844450 from CourseHero.com on 09-14-2021 18:20:35 GMT -05:00
-     * https://www.coursehero.com/file/52561604/Seatjava/ This study resource was
-     * shared via CourseHero.com
+     * A getter method to get the seat type 
      * 
      * @return seatType - (Window, Aisle or Center)
      */

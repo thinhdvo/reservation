@@ -3,9 +3,6 @@ import java.util.*;
 /**
  * A class representing the main core of the plane This plane has 2 classes
  * (economy and first) which are full of seats
- * 
- * @author Karan Bhargava
- * @version 1.5718
  */
 public class Airplane {
     private static ArrayList<Seat> firstClassSeats;

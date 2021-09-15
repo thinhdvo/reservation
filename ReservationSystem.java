@@ -4,9 +4,6 @@ import java.io.*;
 /**
  * A class representing a system for making an Airplane Reservation. Takes in
  * user input and can also take in input from command line
- * 
- * @author Karan Bhargava
- * @version 1.5718
  *
  */
 public class ReservationSystem {
@@ -120,7 +117,7 @@ public class ReservationSystem {
             System.out.println("Please enter a desired class: ");
             classPref = reader.nextLine().toUpperCase();
             if (!classPref.equals("First") && !classPref.equals("Economy")) {
-                System.out.println("Please enter a valid service class");
+                System.out.println("Seat Preference: ");
             }
         } while ((classPref.charAt(0) != 'F') && (classPref.charAt(0) != 'E'));
         // Enter a valid seat preference

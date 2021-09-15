@@ -2,8 +2,6 @@
 /**
  * A class representing a potential passenger for the airplane
  * 
- * @author Karan Bhargava
- * @version 1.5718
  *
  */
 public class Passenger {
